@@ -1,0 +1,14 @@
+node_modules
+
+# stores environment variables
+.envrc
+
+# Mac
+.DS_Store
+
+# secret files
+secret.json
+lib/momotaro/Request.js
+
+# IntelliJ project files
+/.idea

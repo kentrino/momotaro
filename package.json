@@ -1,0 +1,26 @@
+{
+  "name": "kintaro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "init": "node scripts/mask.js --file=./lib/momotaro/Request.js --secret=./secret.json --unmask",
+    "mask": "node scripts/mask.js --file=./lib/momotaro/Request.js --secret=./secret.json --mask"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^4.5.1",
+    "cheerio": "^0.20.0",
+    "co": "^4.6.0",
+    "iconv": "^2.1.11",
+    "moment": "^2.12.0",
+    "qs": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.3.0"
+  }
+}
